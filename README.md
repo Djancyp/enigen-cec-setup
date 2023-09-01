@@ -1,5 +1,5 @@
 ## Requirements
- -Git
+ - Git
  - Node
  - Npm/Yar
 ## Os Support
