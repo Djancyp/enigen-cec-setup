@@ -5,7 +5,12 @@ ROOT_DIR="$PWD"
 # Define the URL of the zip file you want to download
 URL_TO_ZIP_FILE="https://github.com/oracle/content-and-experience-toolkit/archive/master.zip"
 
-
+# check if install forlder exists
+# if not create it
+if [ ! -d "./install" ]; then
+  echo "Creating install folder..."
+  mkdir "./install"
+fi
 # Download the zip file
 echo "Downloading zip file from $URL_TO_ZIP_FILE..."
 wget "$URL_TO_ZIP_FILE" -P "./install"
