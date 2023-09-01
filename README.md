@@ -1,7 +1,7 @@
 ## Requirements
  - Git
  - Node
- - Npm/Yar
+ - Npm / Yarn
 ## Os Support
  - Linux
  - Mac
