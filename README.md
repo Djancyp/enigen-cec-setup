@@ -33,4 +33,12 @@ cec_scope=
 cec_key=
 
 ```
+## Run the development
+```
+cec develop
+```
+Check options
+```
+cec -h
+```
 
